@@ -1,0 +1,104 @@
+div.h1 , p {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+body
+{
+    overflow-x: hidden;
+}
+.wife{
+    height: 0vh;
+}
+.jumbotron:not(.quote)
+{
+    height: 100vh;
+}
+div.span{
+    font-size: 3rem;
+}
+.Introduce{
+    position: relative;
+    right: 18px;
+}
+.line{
+    height:3px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+    position: relative;
+    right: 233px;
+}
+hr{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.Introduce
+{
+    position: relative;
+    display: inline-block;
+
+
+}
+
+
+.Introduce::before
+{
+    position: absolute;
+    content: '';
+    width: 10vw;
+    height: 0.1rem;
+    background-color: #b1b1b1;
+    bottom: 50%;
+    right: -15vw;
+    transform: translateY(-50%);
+
+}
+
+
+.Introduce1
+{
+    position: relative;
+   text-align: right;
+}
+
+
+.Introduce1::before
+{
+    position: absolute;
+    content: '';
+    width: 10vw;
+    height: 0.1rem;
+    background-color: #b1b1b1;
+    bottom: 50%;
+    right: 20vw;
+    transform: translateY(-50%);
+
+}
+
+
+.Introduce2
+{
+    position: relative;
+   text-align: center;
+}
+
+
+.Introduce2::before
+{
+    position: absolute;
+    content: '';
+    width: 10vw;
+    height: 0.1rem;
+    background-color: #b1b1b1;
+    bottom: 40%;
+    left: 20vw;
+    transform: translateY(-50%);
+
+}
+.quote{
+    height: 56%;
+}
